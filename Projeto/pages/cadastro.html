@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projeto/styles/cadastro.css">
+    <title>Cadastre seu Pet aqui</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Cadastre seu pet aqui</h1>
+
+    <div class="form-container">
+        <input type="text" placeholder="Nome do Pet">
+        <input type="text" placeholder="Sexo do Pet">
+        <input type="text" placeholder="Espécie do Pet">
+        <input type="text" placeholder="Raça do Pet">
+        <input type="number" placeholder="Idade Estimada (anos)">
+        
+        <div class="gallery-container">
+            <img id="preview" src="https://via.placeholder.com/100" alt="Foto do Pet">
+        </div>
+
+        <!-- Botões de adicionar e enviar fotos -->
+        <div class="buttons-container">
+            <label for="photo-upload" class="add-photo-btn">Adicionar foto do pet</label>
+            <input type="file" id="photo-upload" accept="image/*" style="display: none;">
+            <button id="upload-btn" class="next-btn">Enviar Foto</button>
+        </div>
+    </div>
+
+    <script src="/Projeto/js/cadastro.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+body {
+    background-color: #3498db; 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    flex-direction: column; 
+    text-align: height; 
+}
+
+h1 {
+    color: white; 
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+
+input[type="button"], button {
+    background-color: rgb(255, 255, 255); 
+    color: #1a1e22; 
+    padding: 15px 32px; 
+    border: 2px solid #ffffff; 
+    border-radius: 50px; 
+    font-size: 16px; 
+    margin: 10px 0; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+}  
+
+
+input[type="button"]:hover, button:hover {
+    background-color: #0b731e;
+    color: white; 
+}
+
+
+.profile-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-photo i {
+    font-size: 220px; 
+    color: #ccc; 
+}
+
+.profile-photo button {
+    margin-top: 50px; 
+}
+
+.button-box{
+display:flex;
+flex-direction:column;
+
+}
+
+/* Oculta o input padrão de upload */
+.file-input {
+    display: none;
+}
+
+/* Estiliza o botão de alterar foto */
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1877F2;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    
+}
+
+.button:hover {
+    background-color: #145dbf;
+}
+
+/* Botão desativado */
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Centraliza o ícone e botão de perfil */
+.profile-photo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.profile-photo i {
+    font-size: 100px;
+    color: #ccc;
+    margin-bottom: 10px;
+}

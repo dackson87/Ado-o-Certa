@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adote seu Pet</title>
+    <link rel="stylesheet" href="/Projeto/styles/infopets.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <h1>Adote seu Pet</h1>
+
+    <div>
+        <form action="">
+            <input type="button" value="Quero um pet">
+            <input type="button" value="Meus pets">
+            <input type="button" value="Perfis salvos">
+            <input type="button" value="Adotados">
+            <input type="button" value="Fale conosco">
+        </form>
+    </div>
+
+    <div class="profile-photo">
+        <!-- Ícone do perfil -->
+        <i class="fas fa-user-circle"></i>
+        
+        <!-- Botão estilizado para alterar a foto -->
+        <label for="photo-upload" class="button">Alterar Foto</label>
+        <input type="file" id="photo-upload" class="file-input" accept="image/*">
+
+         <!-- Botão para enviar a foto -->
+         <button id="upload-button" class="button" disabled>Enviar Foto</button>
+       
+    </div>
+
+    <script src="/Projeto/js/app.js"></script>
+    <script src="/Projeto/js/infopets.js"></script>
+</body>
+</html>

@@ -1,0 +1,158 @@
+body {
+    background-color: #3498db; 
+    font-family: Arial, sans-serif; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: row;
+    text-align: center; 
+    color: rgb(17, 0, 0); 
+}
+.add-photo-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1877F2;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+
+}
+.add-photo-label:hover {
+    background-color: #145dbf;
+}
+
+/* Oculta o input de arquivo padrão */
+.add-photo-input {
+    display: none;
+}
+
+/* Estilo para a pré-visualização da imagem */
+.preview-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.preview-container img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    max-height: 200px;
+}
+
+/* Botão de criar mídia */
+.create-media-btn {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  
+}
+
+.create-media-btn:hover {
+    background-color: #218838;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(0, 0, 0); 
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    color: #000000; 
+    margin-bottom: 30px;
+}
+
+
+.form-container {
+    background-color: white; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    max-width: 550px;
+    margin-left: 20px; 
+}
+
+input[type="text"] {
+    width: 97%;
+    padding: 6px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #dedbdb;
+    font-size: 16px;
+}
+
+
+.add-photo-btn {
+    background-color: #000000; 
+    color: white; 
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin: 20px 0;
+    transition: background-color 0.3s;
+}
+
+
+.add-photo-btn:hover {
+    background-color: #2980b9; 
+}
+
+
+.input-btn {
+    background-color: white;
+    border: 2px solid #3498db;
+    color: #000407;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.input-btn:hover {
+    background-color: #deebf3;
+    color: rgb(0, 0, 0);
+}
+
+
+@media (max-width: 600px) {
+    .form-container {
+        width: 90%; 
+    }
+    body {
+        flex-direction: column; 
+    }
+    img {
+        margin-bottom: 20px; 
+    }
+}
+
+
+.pet-image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-right: 20px; 
+}

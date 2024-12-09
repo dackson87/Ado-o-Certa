@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infos</title>
+    <link rel="stylesheet" href="/Projeto/styles/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <form action="">
+        <h1>Dados Pessoais</h1>
+        <input type="text" placeholder="Nome">
+        <input type="date" placeholder="Data de nascimento">
+        <input type="text" placeholder="Endereço">
+
+        <div>
+            <input type="radio" name="sexo" value="masculino" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" value="feminino" id="feminino">
+            <label for="feminino">Feminino</label>
+        </div>
+
+        <input type="phone" placeholder="Telefone">
+        <input type="text" placeholder="Instagram (Opcional)">
+    </form>
+
+    <div class="profile-photo">
+        <!-- Ícone do perfil -->
+        <i class="fas fa-user-circle"></i>
+        
+        <!-- Campo de upload escondido -->
+        <label for="photo-upload" class="button">Alterar Foto</label>
+        <input type="file" id="photo-upload" class="file-input" accept="image/*">
+
+        <!-- Botão para enviar a foto -->
+        <button id="upload-button" class="button" disabled>Enviar Foto</button>
+    </div>
+
+    <script src="/Projeto/js/app.js"></script>
+    <script src="/Projeto/js/info.js"></script>
+</body>
+</html>

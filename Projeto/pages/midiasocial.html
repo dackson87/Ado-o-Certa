@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Projeto/styles/midias.css">
+    <title>Crie uma Mídia Social para o Seu Pet</title>  
+</head>
+<body>
+    <img src="/Projeto/images/clipart.png" alt="cachorro feliz" class="pet-image">
+
+    <div class="form-container">
+        <h1>Crie uma Mídia Social para o Seu Pet</h1>
+        <h2>Adicione as informações do seu pet</h2>
+
+        <form action="">
+            <input type="text" placeholder="Nome do Pet" class="input-btn">
+            <input type="text" placeholder="Idade" class="input-btn">
+            <input type="text" placeholder="Data de Adoção" class="input-btn">
+            <input type="text" placeholder="Personalidade" class="input-btn">
+            <input type="text" placeholder="Raça" class="input-btn">
+
+            <!-- Adicionar a tag correta para upload de fotos -->
+            <label for="foto" class="add-photo-label">Adicionar Foto</label>
+            <input type="file" id="foto" class="add-photo-input" accept="image/*">
+        </form>
+        <button type="button" class="create-media-btn">Criar Mídia</button>
+    </div>
+
+    <script src="/Projeto/js/app.js"></script>
+    <script src="/Projeto/js/midia.js"></script>
+</body>
+</html>
